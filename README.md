@@ -15,13 +15,11 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Program:
 (i) To find the L and U matrix
-```
-/*
-Program to find the L and U matrix.
+
+'''Program to find the L and U matrix.
 Developed by: Saadhana A
 RegisterNumber:25018432 
-*/
-```
+'''
 import numpy as np
 from scipy.linalg import lu
 A=np.array(eval(input()))
@@ -30,12 +28,11 @@ print(L)
 print(U)
 
 (ii) To find the LU Decomposition of a matrix
-```
-/*
-Program to find the LU Decomposition of a matrix.
+
+'''Program to find the LU Decomposition of a matrix.
 Developed by:Saadhana A 
-RegisterNumber:25018432 
-*/
+RegisterNumber:25018432
+'''
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=np.array(eval(input()))
@@ -46,10 +43,9 @@ print(x)
 
 ## Output:
 ![lu decomposition]()
+<img width="976" height="499" alt="Screenshot 2025-10-24 at 6 04 28 PM copy" src="https://github.com/user-attachments/assets/bac44e58-6956-4804-8ab1-df59d5189749" />
 
-<img width="976" height="499" alt="Screenshot 2025-10-24 at 6 04 28 PM" src="https://github.com/user-attachments/assets/d4854865-069a-4709-8083-5fccbb883217" />
-
-<img width="989" height="283" alt="Screenshot 2025-10-24 at 6 04 53 PM" src="https://github.com/user-attachments/assets/436b9693-8979-429e-93c7-15c877f529c8" />
+<img width="989" height="283" alt="Screenshot 2025-10-24 at 6 04 53 PM" src="https://github.com/user-attachments/assets/c99a3c68-174b-48d2-8683-ab33a7e4b744" />
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
